@@ -2,7 +2,12 @@
 
 > look up npm usernames by email address
 
-Data comes from the [owner-profiles] and [owners] modules.
+This module does not fetch live data from an API. Instead it contains exported 
+data from the [owner-profiles] and [owners] modules.
+
+If you need to do lookups in the other direction (email addresses by username), 
+see the [get-email-address-from-npm-username], module which pings the 
+npm registry directly.
 
 ## Installation
 
@@ -64,3 +69,4 @@ MIT
 
 [owner-profiles]: https://ghub.io/owner-profiles
 [owners]: https://ghub.io/owners
+[get-email-address-from-npm-username]: https://ghub.io/get-email-address-from-npm-username
